@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.image {
+  width: 35%;
+}
+.image img {
+  border-radius: 50%;
+}
+
+.content {
+  width: 64%;
+  margin-left: 2%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: medium;
+  margin-top: 0;
+}
+
+.text {
+  text-align: justify;
+}

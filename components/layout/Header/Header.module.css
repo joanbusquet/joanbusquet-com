@@ -1,0 +1,15 @@
+.header {
+  align-items: center;
+  display: flex;
+  height: 7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.logo {
+  width: 80%;
+}
+
+.navigation {
+  width: 20%;
+}
