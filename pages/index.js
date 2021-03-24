@@ -58,7 +58,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>
+          ▷ Desarrollo web Javascript y rendimiento web | Joan Busquet
+        </title>
+        <meta
+          type="description"
+          content="Aprende desarrollo web Javascript, React, librerías, frameworks, rendimiento web, SEO, CSS... totalmente GRATIS."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
