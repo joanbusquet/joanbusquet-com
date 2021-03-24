@@ -1,7 +1,7 @@
 import Head from "next/head"
 
 import Hero from "components/hero/Hero"
-import SocialIcons from "components/socialIcons/socialIcons"
+import SocialIcons from "components/socialIcons/SocialIcons"
 import SectionTitle from "components/ui/SectionTitle/SectionTitle"
 import PostsList from "components/postsList/PostsList"
 
