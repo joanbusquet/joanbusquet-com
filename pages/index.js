@@ -62,7 +62,7 @@ export default function Home() {
           ▷ Desarrollo web Javascript y rendimiento web | Joan Busquet
         </title>
         <meta
-          type="description"
+          name="description"
           content="Aprende desarrollo web Javascript, React, librerías, frameworks, rendimiento web, SEO, CSS... totalmente GRATIS."
         />
         <link rel="icon" href="/favicon.ico" />
