@@ -8,6 +8,7 @@
 
 .image {
   width: 35%;
+  text-align: center;
 }
 .image img {
   border-radius: 50%;

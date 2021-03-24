@@ -7,7 +7,7 @@ export default function PostItem({ post }) {
   return (
     <div className={classes.container}>
       <div className={classes.image}>
-        <Image src={post.image} width={177} height={177} />
+        <Image src={post.image} alt={post.title} width={177} height={177} />
       </div>
       <div className={classes.data}>
         <h3

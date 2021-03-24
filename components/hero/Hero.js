@@ -6,7 +6,12 @@ export default function Hero() {
   return (
     <div className={classes.hero}>
       <div className={classes.image}>
-        <Image src="/images/pages/hero.png" width={150} height={150} />
+        <Image
+          src="/images/pages/hero.png"
+          alt="joan busquet"
+          width={150}
+          height={150}
+        />
       </div>
       <div className={classes.content}>
         <h1 className={classes.title}>¡Hola, soy Joan!</h1>
