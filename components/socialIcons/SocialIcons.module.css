@@ -1,10 +1,13 @@
 .container {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 -1rem 1.25rem;
+  padding: 0 1rem 1.25rem 1rem;
+  background-color: #ebf8ff;
 }
 
 .icon {
-  width: 10%;
+  width: 8%;
   height: auto;
   max-width: 2.5rem;
 }

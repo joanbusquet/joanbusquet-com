@@ -9,11 +9,11 @@ export default function Hero() {
         <Image src="/images/pages/hero.png" width={150} height={150} />
       </div>
       <div className={classes.content}>
-        <h2 className={classes.title}>¡Hola, soy Joan!</h2>
-        <div className={classes.text}>
+        <h1 className={classes.title}>¡Hola, soy Joan!</h1>
+        <p className={classes.text}>
           Desarrollador web fullstack desde hace más de 12 años. <br />
-          Apasionado del ecosistema Javascript y web performance. <br />
-        </div>
+          Apasionado del ecosistema Javascript y del web performance. <br />
+        </p>
       </div>
     </div>
   )

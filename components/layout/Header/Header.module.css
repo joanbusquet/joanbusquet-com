@@ -1,9 +1,8 @@
 .header {
   align-items: center;
   display: flex;
-  height: 7rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
+  background-color: #ebf8ff;
 }
 
 .logo {
