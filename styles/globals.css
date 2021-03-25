@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Artico";
-  src: url("/fonts/Artico/Artico-Regular.otf");
+  src: url("/fonts/Artico/Artico-Regular.woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Artico";
-  src: url("/fonts/Artico/Artico-Medium.otf");
+  src: url("/fonts/Artico/Artico-Medium.woff");
   font-style: medium;
   font-weight: 500;
   font-display: swap;
 }
 @font-face {
   font-family: "Artico";
-  src: url("/fonts/Artico/Artico-Bold.otf");
+  src: url("/fonts/Artico/Artico-Bold.woff");
   font-style: bold;
   font-weight: 600;
   font-display: swap;
