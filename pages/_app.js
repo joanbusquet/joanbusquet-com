@@ -11,19 +11,37 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="preload"
-          href="/fonts/Artico/Artico-Regular.woff"
+          href="/fonts/Artico/Artico.woff"
           as="font"
           crossOrigin=""
         />
         <link
           rel="preload"
-          href="/fonts/Artico/Artico-Medium.woff"
+          href="/fonts/Artico/ArticoMedium.woff"
           as="font"
           crossOrigin=""
         />
         <link
           rel="preload"
-          href="/fonts/Artico/Artico-Bold.woff"
+          href="/fonts/Artico/ArticoBold.woff"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Artico/Artico.woff2"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Artico/ArticoMedium.woff2"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Artico/ArticoBold.woff2"
           as="font"
           crossOrigin=""
         />

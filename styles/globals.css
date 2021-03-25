@@ -1,22 +1,29 @@
 @font-face {
   font-family: "Artico";
-  src: url("/fonts/Artico/Artico-Regular.woff");
-  font-style: normal;
+  src: url("../public/fonts/Artico/Artico.woff2") format("woff2"),
+    url("../public/fonts/Artico/Artico.woff") format("woff");
   font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Artico";
-  src: url("/fonts/Artico/Artico-Medium.woff");
-  font-style: medium;
+
+  src: url("../public/fonts/Artico/ArticoMedium.woff2") format("woff2"),
+    url("../public/fonts/Artico/ArticoMedium.woff") format("woff");
   font-weight: 500;
+  font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Artico";
-  src: url("/fonts/Artico/Artico-Bold.woff");
-  font-style: bold;
+
+  src: url("../public/fonts/Artico/ArticoBold.woff2") format("woff2"),
+    url("../public/fonts/Artico/ArticoBold.woff") format("woff");
   font-weight: 600;
+  font-style: normal;
   font-display: swap;
 }
 
