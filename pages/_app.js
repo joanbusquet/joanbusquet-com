@@ -9,6 +9,24 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="preload"
+          href="/fonts/Artico/Artico-Regular.otf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Artico/Artico-Medium.otf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Artico/Artico-Bold.otf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <Component {...pageProps} />
     </Layout>
