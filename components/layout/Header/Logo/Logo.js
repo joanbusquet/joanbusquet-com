@@ -1,15 +1,16 @@
 import Image from "next/image"
-import classes from "./Logo.module.css"
-
+import Link from "next/link"
 export default function Logo() {
   return (
-    <div className={classes.logo}>
-      <Image
-        src="/images/ui/logo.png"
-        alt="desarrollo web"
-        width={200}
-        height={80}
-      />
-    </div>
+    <Link href="/">
+      <a>
+        <Image
+          src="/images/ui/logo.png"
+          alt="desarrollo web"
+          width={200}
+          height={80}
+        />
+      </a>
+    </Link>
   )
 }
