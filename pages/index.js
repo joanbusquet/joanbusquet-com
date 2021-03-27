@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import Hero from "components/hero/Hero"
 import SocialIcons from "components/socialIcons/SocialIcons"
 import SectionTitle from "components/ui/SectionTitle/SectionTitle"
-import PostsList from "components/posts/postsList/PostsList"
+import PostsList from "components/posts/PostsList/PostsList"
 
 import { getFeaturedPosts } from "lib/posts-util"
 
