@@ -31,8 +31,8 @@ export default function PostHeader({ post }) {
           rel="noreferrer"
         >
           Editar
+          <GitHub width={20} height={20} className={classes.icon} fill="grey" />
         </a>
-        <GitHub width={20} height={20} className={classes.icon} fill="grey" />
       </p>
     </section>
   )
