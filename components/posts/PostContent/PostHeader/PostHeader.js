@@ -4,7 +4,7 @@ import Image from "next/image"
 import classes from "./PostHeader.module.css"
 import GitHub from "components/icons/social/GitHub"
 
-import { REPOSITORY_POST_URL } from "constants/repository"
+import { REPOSITORY_EDITPOST_URL } from "constants/repository"
 
 export default function PostHeader({ post }) {
   const category = useCategory(post.category)
@@ -23,10 +23,10 @@ export default function PostHeader({ post }) {
       </div>
       <h1 className={classes.title}>{post.title}</h1>
       <p className={classes.meta}>
-        {post.formattedDate} · {post.readingTime} min lectura ·{" "}
+        {post.formattedDate} · {post.readingTime} min lectura ·
         <a
           className={classes.edit}
-          href={`${REPOSITORY_POST_URL}/${post.slug}.md`}
+          href={`${REPOSITORY_EDITPOST_URL}/${post.slug}.md`}
           target="_BLANK"
           rel="noreferrer"
         >
