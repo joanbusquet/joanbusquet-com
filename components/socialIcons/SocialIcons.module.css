@@ -7,7 +7,10 @@
 }
 
 .icon {
-  width: 8%;
+  text-align: center;
+}
+.icon svg {
+  width: 55%;
   height: auto;
   max-width: 2.5rem;
 }
