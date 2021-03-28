@@ -2,15 +2,18 @@ import PropTypes from "prop-types"
 import Image from "next/image"
 import Link from "next/link"
 import classes from "./PostItem.module.css"
+import useCategory from "hooks/useCategory"
 
 export default function PostItem({ post }) {
+  const category = useCategory(post.category)
+
   return (
     <Link href={`/${post.slug}`}>
       <a>
         <div className={classes.container}>
           <div className={classes.image}>
             <Image
-              src={`/images/categories/${post.category}.png`}
+              src={category.image}
               alt={post.title}
               width={177}
               height={177}
@@ -19,7 +22,7 @@ export default function PostItem({ post }) {
           <div className={classes.data}>
             <h3
               className={classes.category}
-              style={post.categoryColor && { color: post.categoryColor }}
+              style={category.color && { color: category.color }}
             >
               {post.category}
             </h3>
