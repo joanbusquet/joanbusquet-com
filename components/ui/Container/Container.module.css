@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+.flexContainer {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (min-width: 720px) {
+  .container,
+  .flexContainer {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}

@@ -1,7 +1,5 @@
 .hero {
-  display: flex;
-  align-items: center;
-  margin: 0 -1rem;
+  margin: 0;
   background-color: #ebf8ff;
   padding: 0 1rem 1rem;
 }

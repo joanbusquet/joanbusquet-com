@@ -38,3 +38,9 @@
   margin-top: 0.2rem;
   font-size: 0.8rem;
 }
+
+@media (min-width: 420px) {
+  .image {
+    max-width: 85px;
+  }
+}

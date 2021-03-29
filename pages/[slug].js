@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 import Head from "next/head"
+import Container from "components/ui/Container/Container"
 import PostContent from "components/posts/PostContent/PostContent"
 import { getPostData, getPostsFiles } from "lib/posts-util"
 
@@ -10,7 +11,9 @@ export default function PostDetailPage({ post }) {
         <title>{post.title}</title>
         <meta name="description" content={post.excerpt} />
       </Head>
-      <PostContent post={post} />
+      <Container>
+        <PostContent post={post} />
+      </Container>
     </>
   )
 }

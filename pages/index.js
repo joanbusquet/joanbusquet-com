@@ -2,8 +2,8 @@ import Head from "next/head"
 import PropTypes from "prop-types"
 
 import Hero from "components/hero/Hero"
-import SocialIcons from "components/socialIcons/SocialIcons"
 import SectionTitle from "components/ui/SectionTitle/SectionTitle"
+import Container from "components/ui/Container/Container"
 import PostsList from "components/posts/PostsList/PostsList"
 
 import { getFeaturedPosts } from "lib/posts-util"
@@ -22,9 +22,10 @@ export default function HomePage({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <SocialIcons />
-      <SectionTitle title="Últimos artículos" />
-      <PostsList posts={posts} />
+      <Container>
+        <SectionTitle title="Últimos artículos" />
+        <PostsList posts={posts} />
+      </Container>
     </>
   )
 }

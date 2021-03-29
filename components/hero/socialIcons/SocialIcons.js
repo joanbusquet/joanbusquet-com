@@ -3,7 +3,7 @@ import SOCIALMEDIA from "constants/socialMedia"
 
 export default function SocialIcons() {
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       {SOCIALMEDIA.map((social) => (
         <a
           className={classes.icon}
@@ -15,6 +15,6 @@ export default function SocialIcons() {
           {social.icon}
         </a>
       ))}
-    </div>
+    </section>
   )
 }
