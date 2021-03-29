@@ -1,8 +1,8 @@
 ---
 title: 'Guía de estilos de Tailwind CSS versión 2.0'
+description: 'Guía de estilos de Tailwind CSS versión 2.0'
 date: '2022-10-08'
 category: 'tailwindcss'
-categoryColor: '#47acb3'
 isFeatured: true
 ---
 

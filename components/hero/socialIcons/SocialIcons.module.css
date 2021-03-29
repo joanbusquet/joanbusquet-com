@@ -1,10 +1,9 @@
 .container {
   display: flex;
   justify-content: space-evenly;
-  padding: 0 1rem 1.25rem 1rem;
   background-color: #ebf8ff;
   max-width: 40rem !important;
-  margin: 0 auto;
+  margin: 0.5rem auto;
 }
 
 .icon {

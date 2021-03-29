@@ -1,6 +1,22 @@
 .navigation {
-  text-align: right;
+  list-style: none;
+  padding: 0;
 }
 .icon {
   width: 1.75rem;
 }
+
+.hideMobile {
+  display: none;
+}
+
+@media (min-width: 973px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  .hideMobile {
+    display: flex;
+  }
+}
+/* 973px media query */

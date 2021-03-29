@@ -1,10 +1,19 @@
+import PropTypes from "prop-types"
 import classes from "./Navigation.module.css"
-import Hamburguer from "components/icons/ui/Hamburguer"
+import NavigationItem from "./NavigationItem/NavigationItem"
 
-export default function Navigation() {
+import NAVIGATION_ITEMS from "constants/navigation"
+
+export default function Navigation({ mobileNav }) {
   return (
-    <div className={classes.navigation}>
-      <Hamburguer className={classes.icon} />
-    </div>
+    <ul className={`${classes.navigation} ${!mobileNav && classes.hideMobile}`}>
+      {NAVIGATION_ITEMS.map((item) => (
+        <NavigationItem key={item.slug} item={item} />
+      ))}
+    </ul>
   )
+}
+
+Navigation.propTypes = {
+  mobileNav: PropTypes.bool,
 }

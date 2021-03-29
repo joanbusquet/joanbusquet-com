@@ -1,8 +1,8 @@
 ---
 title: 'Configuración de Eslint y Prettier en Javascript'
+description: 'Configuración de Eslint y Prettier en Javascript'
 date: '2022-10-10'
 category: 'javascript'
-categoryColor: '#f7df1e'
 isFeatured: true
 ---
 

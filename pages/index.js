@@ -19,7 +19,6 @@ export default function HomePage({ posts }) {
           name="description"
           content="Aprende desarrollo web Javascript, React, librerías, frameworks, rendimiento web, SEO, CSS... totalmente GRATIS."
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
       <Container>
