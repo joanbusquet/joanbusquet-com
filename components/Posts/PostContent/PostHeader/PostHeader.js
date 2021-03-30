@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import useCategory from "hooks/useCategory"
 import Image from "next/image"
 import classes from "./PostHeader.module.css"
-import GitHub from "components/Icons/social/GitHub"
+import GitHub from "components/Icons/Social/GitHub"
 
 import { REPOSITORY_EDITPOST_URL } from "constants/repository"
 

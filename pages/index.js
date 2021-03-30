@@ -1,13 +1,13 @@
 import Head from "next/head"
 import PropTypes from "prop-types"
 
-import Hero from "components/HomePage/hero/Hero"
+import Hero from "components/HomePage/Hero/Hero"
 import SectionTitle from "components/Ui/SectionTitle/SectionTitle"
 import Container from "components/Ui/Container/Container"
 import PostsList from "components/Posts/PostsList/PostsList"
 
 import { getFeaturedPosts } from "lib/posts-util"
-import Topics from "components/HomePage/topics/Topics"
+import Topics from "components/HomePage/Topics/Topics"
 
 export default function HomePage({ posts }) {
   return (
