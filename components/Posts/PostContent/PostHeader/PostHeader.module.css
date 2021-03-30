@@ -1,0 +1,40 @@
+.postHeader {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.category {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.category h3 {
+  margin-left: 0.2rem;
+  font-weight: 500;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.meta {
+  color: grey;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.edit {
+  margin-left: 0.25rem;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 0.2rem;
+}

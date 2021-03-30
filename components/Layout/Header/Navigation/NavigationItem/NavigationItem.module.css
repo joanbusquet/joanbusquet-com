@@ -1,0 +1,20 @@
+.item {
+  padding: 1rem;
+  text-align: center;
+}
+.item:first-child {
+  padding-top: 0;
+}
+.item:last-child {
+  padding-bottom: 0;
+}
+
+.item a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 973px) {
+  .item {
+    padding: 0.5rem 0 0.5rem 2rem !important;
+  }
+}
