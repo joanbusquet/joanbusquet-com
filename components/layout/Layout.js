@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import classes from "./Layout.module.css"
 
-import Header from "components/layout/Header/Header"
+import Header from "components/Layout/Header/Header"
 
 export default function Layout({ children }) {
   return (

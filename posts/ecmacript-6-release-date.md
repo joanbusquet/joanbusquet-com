@@ -2,7 +2,7 @@
 title: 'ECMASCRIPT 6 release date sit amet'
 description: 'ECMASCRIPT 6 release date sit amet'
 date: '2022-10-01'
-category: 'javascript'
+categoryId: 'javascript'
 isFeatured: true
 ---
 

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 40rem !important;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.icon {
+  text-align: center;
+}
+.icon svg {
+  width: 55%;
+  height: auto;
+  max-width: 2.5rem;
+}
+
+@media (min-width: 720px) {
+  .container {
+    margin-bottom: 0;
+  }
+}

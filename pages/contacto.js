@@ -1,6 +1,6 @@
 import Head from "next/head"
 
-import Container from "components/ui/Container/Container"
+import Container from "components/Ui/Container/Container"
 
 export default function SobreMiPage() {
   return (

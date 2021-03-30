@@ -1,9 +1,9 @@
 // Icons
-import Youtube from "components/icons/social/Youtube"
+import Youtube from "components/Icons/social/Youtube"
 // import Twitch from "components/icons/social/Twitch"
-import Twitter from "components/icons/social/Twitter"
-import Linkedin from "components/icons/social/Linkedin"
-import GitHub from "components/icons/social/GitHub"
+import Twitter from "components/Icons/social/Twitter"
+import Linkedin from "components/Icons/social/Linkedin"
+import GitHub from "components/Icons/social/GitHub"
 
 const SOCIALMEDIA = [
   {

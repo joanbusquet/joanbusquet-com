@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import Head from "next/head"
-import Container from "components/ui/Container/Container"
-import PostContent from "components/posts/PostContent/PostContent"
+import Container from "components/Ui/Container/Container"
+import PostContent from "components/Posts/PostContent/PostContent"
 import { getPostData, getPostsFiles } from "lib/posts-util"
 
 export default function PostDetailPage({ post }) {

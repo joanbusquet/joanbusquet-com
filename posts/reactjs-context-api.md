@@ -2,7 +2,7 @@
 title: 'Lorem ipsum dolor sit en ReactJS para Context API'
 description: 'Lorem ipsum dolor sit en ReactJS para Context API'
 date: '2022-10-26'
-category: 'react'
+categoryId: 'react'
 isFeatured: true
 ---
 

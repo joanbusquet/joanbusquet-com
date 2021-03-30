@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import Head from "next/head"
 
 import "../styles/globals.css"
-import Layout from "components/layout/Layout"
+import Layout from "components/Layout/Layout"
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import Hamburguer from "components/icons/ui/Hamburguer"
+import Hamburguer from "components/Icons/ui/Hamburguer"
 import classes from "./Header.module.css"
 
 import Logo from "./Logo/Logo"

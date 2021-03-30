@@ -1,0 +1,30 @@
+.hero {
+  background: var(--color-bg-grey);
+  padding-bottom: 8rem;
+}
+
+.content {
+  width: 100%;
+}
+.video {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.text {
+  text-align: left;
+}
+
+@media (min-width: 973px) {
+  .content {
+    width: 45%;
+  }
+
+  .video {
+    width: 45%;
+    text-align: right;
+  }
+}

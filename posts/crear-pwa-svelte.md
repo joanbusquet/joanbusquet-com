@@ -2,7 +2,7 @@
 title: '¿Cómo crear una PWA con Svelte 2.0?'
 description: '¿Cómo crear una PWA con Svelte 2.0?'
 date: '2022-10-16'
-category: 'svelte'
+categoryId: 'visualstudiocode'
 isFeatured: true
 ---
 

@@ -3,15 +3,20 @@
   padding: 1rem;
 }
 .flexContainer {
-  display: flex;
-  width: 100%;
-  padding: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 720px) {
   .container,
   .flexContainer {
-    max-width: 720px;
+    max-width: var(--max-width-content);
     margin: 0 auto;
+    padding: 1rem;
+  }
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

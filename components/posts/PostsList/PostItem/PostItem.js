@@ -5,7 +5,7 @@ import classes from "./PostItem.module.css"
 import useCategory from "hooks/useCategory"
 
 export default function PostItem({ post }) {
-  const category = useCategory(post.category)
+  const category = useCategory(post.categoryId)
 
   return (
     <Link href={`/${post.slug}`}>

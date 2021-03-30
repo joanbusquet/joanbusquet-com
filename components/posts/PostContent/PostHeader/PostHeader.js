@@ -2,12 +2,12 @@ import PropTypes from "prop-types"
 import useCategory from "hooks/useCategory"
 import Image from "next/image"
 import classes from "./PostHeader.module.css"
-import GitHub from "components/icons/social/GitHub"
+import GitHub from "components/Icons/social/GitHub"
 
 import { REPOSITORY_EDITPOST_URL } from "constants/repository"
 
 export default function PostHeader({ post }) {
-  const category = useCategory(post.category)
+  const category = useCategory(post.categoryId)
   return (
     <section className={classes.postHeader}>
       <div className={classes.category}>
