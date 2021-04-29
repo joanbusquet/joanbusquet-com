@@ -28,12 +28,12 @@
 }
 
 :root {
-  --color-text: #181818;
-  --color-bg: #fff;
-  /*--color-bg-grey: #f8fafc;*/
-  --color-bg-grey: #ecf6ff;
+  --color-text: #333333;
+  --color-white: #fff;
+  --color-light-grey: #f8fafc;
+  --color-dark-grey: #e7eaec;
   --font-size-body: 1rem;
-  --font-size-h1: 1.4rem;
+  --font-size-h1: 2rem;
   --font-size-h2: 1rem;
   --font-size-h3: 1rem;
   --font-weight-normal: 400;
@@ -41,8 +41,11 @@
   --font-weight-bold: 600;
   --max-width-content: 1040px;
   --box-shadow: rgba(0, 0, 0, 0.2);
-  --color-bg-javascript: #f7e017;
-  --color-bg-react: #60dafb;
+  --gradient-primary: linear-gradient(
+    90deg,
+    rgba(0, 114, 255, 1) 0%,
+    rgba(0, 198, 255, 1) 100%
+  );
 }
 
 html,

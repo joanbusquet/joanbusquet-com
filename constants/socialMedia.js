@@ -1,5 +1,6 @@
 // Icons
 import Youtube from "components/Icons/Social/Youtube"
+import Instagram from "components/Icons/Social/Instagram"
 // import Twitch from "components/icons/social/Twitch"
 import Twitter from "components/Icons/Social/Twitter"
 import Linkedin from "components/Icons/Social/Linkedin"
@@ -12,14 +13,19 @@ const SOCIALMEDIA = [
     icon: <Youtube />,
   },
   {
-    name: "twitter",
-    link: "https://twitter.com/joanbusquet",
-    icon: <Twitter />,
+    name: "instagram",
+    link: "https://www.instagram.com/joanbusquet",
+    icon: <Instagram />,
   },
   {
     name: "linkedin",
     link: "https://www.linkedin.com/in/joan-busquet/",
     icon: <Linkedin />,
+  },
+  {
+    name: "twitter",
+    link: "https://twitter.com/joanbusquet",
+    icon: <Twitter />,
   },
   {
     name: "github",

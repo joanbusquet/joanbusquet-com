@@ -1,28 +1,26 @@
 .topics {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: -7rem;
   margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 .topic {
-  display: block;
-  padding: 2rem 1rem;
+  padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px var(--box-shadow);
-  background-color: var(--color-bg);
+  background-color: var(--color-white);
   transition: color 0.3s, transform 0.3s !important;
-  width: 100%;
   text-align: center;
   margin-bottom: 1rem;
 }
-.topic:last-child {
-  margin-bottom: 0;
+.icon {
+  width: 50%;
+  margin: 0 auto;
 }
 
 @media (min-width: 720px) {
   .topic {
-    width: 32%;
     margin-bottom: 1rem;
   }
 }

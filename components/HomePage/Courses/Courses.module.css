@@ -1,0 +1,36 @@
+.courses {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.course {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0px 7px var(--box-shadow);
+  background-color: var(--color-white);
+  transition: color 0.3s, transform 0.3s !important;
+  text-align: center;
+  cursor: pointer;
+}
+.course:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 50%;
+  margin: 0 auto;
+}
+.title {
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  .course {
+    margin-bottom: 1rem;
+  }
+}

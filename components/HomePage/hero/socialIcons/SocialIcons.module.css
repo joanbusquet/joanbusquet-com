@@ -8,6 +8,7 @@
 
 .icon {
   text-align: center;
+  z-index: 2;
 }
 .icon svg {
   width: 55%;

@@ -1,6 +1,6 @@
 .hero {
-  background: var(--color-bg-grey);
-  padding-bottom: 8rem;
+  background: var(--color-light-grey);
+  text-align: center;
 }
 
 .content {
@@ -16,6 +16,11 @@
 
 .text {
   text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.wave {
+  margin-top: -2vw;
 }
 
 @media (min-width: 973px) {

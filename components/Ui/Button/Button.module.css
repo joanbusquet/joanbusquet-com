@@ -1,0 +1,10 @@
+.button {
+  border: none;
+  background: var(--gradient-primary);
+  padding: 0.75rem 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}

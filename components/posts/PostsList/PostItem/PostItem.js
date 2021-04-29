@@ -20,13 +20,7 @@ export default function PostItem({ post }) {
             />
           </div>
           <div className={classes.data}>
-            <h3
-              className={classes.category}
-              style={category.color && { color: category.color }}
-            >
-              {post.category}
-            </h3>
-            <h2 className={classes.title}>{post.title}</h2>
+            <h3 className={classes.title}>{post.title}</h3>
             <p className={classes.meta}>
               {post.formattedDate} · {post.readingTime} min lectura
             </p>

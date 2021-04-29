@@ -1,20 +1,28 @@
 import Head from "next/head"
 import PropTypes from "prop-types"
 
-import Hero from "components/HomePage/Hero/Hero"
-import SectionTitle from "components/Ui/SectionTitle/SectionTitle"
+// UI components
 import Container from "components/Ui/Container/Container"
-import PostsList from "components/Posts/PostsList/PostsList"
+import Row from "components/Ui/Row/Row"
+import Column from "components/Ui/Column/Column"
 
+import NewsletterBar from "components/Newsletter/NewsletterBar/NewsletterBar"
+
+// Home page components
+import Hero from "components/HomePage/Hero/Hero"
+import PostsList from "components/Posts/PostsList/PostsList"
+import VideosList from "components/Videos/VideosList/VideosList"
+import Courses from "components/HomePage/Courses/Courses"
+
+// Posts
 import { getFeaturedPosts } from "lib/posts-util"
-import Topics from "components/HomePage/Topics/Topics"
 
 export default function HomePage({ posts }) {
   return (
     <>
       <Head>
         <title>
-          ▷ Desarrollo web Javascript y rendimiento web | Joan Busquet
+          Desarrollo web Javascript y rendimiento web | Joan Busquet
         </title>
         <meta
           name="description"
@@ -22,12 +30,18 @@ export default function HomePage({ posts }) {
         />
       </Head>
       <Hero />
-
-      <Topics />
       <Container>
-        <SectionTitle title="Últimos artículos" />
-        <PostsList posts={posts} />
+        <Courses />
+        <Row>
+          <Column>
+            <PostsList posts={posts} />
+          </Column>
+          <Column>
+            <VideosList videos={posts} />
+          </Column>
+        </Row>
       </Container>
+      <NewsletterBar />
     </>
   )
 }
