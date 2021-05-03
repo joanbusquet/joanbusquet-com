@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import classes from "./Button.module.css"
 
-export default function Button({ text }) {
+export default function Button({ text, name, id }) {
   return (
     <button type="submit" className={classes.button}>
       {text}
@@ -11,4 +11,6 @@ export default function Button({ text }) {
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
 }

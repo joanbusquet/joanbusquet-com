@@ -11,8 +11,8 @@ import NewsletterBar from "components/Newsletter/NewsletterBar/NewsletterBar"
 // Home page components
 import Hero from "components/HomePage/Hero/Hero"
 import PostsList from "components/Posts/PostsList/PostsList"
-import VideosList from "components/Videos/VideosList/VideosList"
-import Courses from "components/HomePage/Courses/Courses"
+// import VideosList from "components/Videos/VideosList/VideosList"
+// import Courses from "components/HomePage/Courses/Courses"
 
 // Posts
 import { getFeaturedPosts } from "lib/posts-util"
@@ -21,24 +21,22 @@ export default function HomePage({ posts }) {
   return (
     <>
       <Head>
-        <title>
-          Desarrollo web Javascript y rendimiento web | Joan Busquet
-        </title>
+        <title>Desarrollo web Javascript Full Stack | Joan Busquet</title>
         <meta
           name="description"
-          content="Aprende desarrollo web Javascript, React, librerías, frameworks, rendimiento web, SEO, CSS... totalmente GRATIS."
+          content="Aprende desarrollo web full stack Javascript, librerías, frameworks ⚛️  y rendimiento web."
         />
       </Head>
       <Hero />
       <Container>
-        <Courses />
+        {/* <Courses /> */}
         <Row>
           <Column>
             <PostsList posts={posts} />
           </Column>
-          <Column>
+          {/* <Column>
             <VideosList videos={posts} />
-          </Column>
+          </Column> */}
         </Row>
       </Container>
       <NewsletterBar />

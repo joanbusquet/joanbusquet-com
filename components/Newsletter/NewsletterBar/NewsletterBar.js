@@ -22,20 +22,34 @@ export default function NewsletterBar() {
             </div>
           </Column>
           <Column>
-            <form>
+            <form
+              action="https://www.getrevue.co/profile/joanbusquet/add_subscriber"
+              method="post"
+              id="revue-form"
+              name="revue-form"
+              target="_blank"
+            >
               <input
                 type="text"
                 placeholder="Nombre"
                 className={classes.input}
+                name="member[first_name]"
+                id="member_first_name"
               />
 
               <input
-                type="text"
+                type="email"
                 placeholder="Email"
                 className={classes.input}
+                name="member[email]"
+                id="member_email"
               />
 
-              <Button text="Suscríbete GRATIS" />
+              <Button
+                text="Suscríbete GRATIS"
+                name="member[subscribe]"
+                id="member_submit"
+              />
             </form>
           </Column>
         </Row>

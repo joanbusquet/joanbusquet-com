@@ -6,5 +6,5 @@ export default function Row({ children }) {
 }
 
 Row.propTypes = {
-  children: PropTypes.object.isRequired,
+  children: PropTypes.array.isRequired,
 }

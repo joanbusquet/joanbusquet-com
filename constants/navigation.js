@@ -1,19 +1,20 @@
 const NAVIGATION_ITEMS = [
   {
     name: "Artículos",
-    slug: "/articulos",
+    slug: "/",
+  },
+  {
+    name: "Cursos gratis",
+    slug: "/",
   },
   {
     name: "Vídeos",
-    slug: "/videos",
+    slug: "/",
   },
+
   {
     name: "Sobre mi",
-    slug: "/sobre-mi",
-  },
-  {
-    name: "¿Hablamos?",
-    slug: "/contacto",
+    slug: "/",
   },
 ]
 

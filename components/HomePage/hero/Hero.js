@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import Container from "components/Ui/Container/Container"
-import SocialIcons from "./socialIcons/SocialIcons"
+import SocialIcons from "./SocialIcons/SocialIcons"
 
 import classes from "./Hero.module.css"
 import Wave from "./Wave"
@@ -25,6 +25,7 @@ export default function Hero() {
               Te invito a echar un vistazo al contenido de la página, redes
               sociales y mis cursos gratis en Youtube.
             </p>
+
             <SocialIcons />
           </div>
 
