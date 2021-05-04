@@ -3,10 +3,10 @@ import Image from "next/image"
 import Container from "components/Ui/Container/Container"
 import SocialIcons from "./SocialIcons/SocialIcons"
 
-import classes from "./Hero.module.css"
-import Wave from "./Wave"
+import classes from "./HomeHero.module.css"
+import Wave from "../../Ui/Wave/Wave"
 
-export default function Hero() {
+export default function HomeHero() {
   return (
     <>
       <section className={classes.hero}>

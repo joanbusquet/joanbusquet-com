@@ -5,7 +5,7 @@ import Header from "components/Layout/Header/Header"
 import Footer from "./Footer/Footer"
 import Row from "components/Ui/Row/Row"
 import Column from "components/Ui/Column/Column"
-import SocialIcons from "components/HomePage/Hero/SocialIcons/SocialIcons"
+import SocialIcons from "components/HomePage/HomeHero/SocialIcons/SocialIcons"
 
 export default function Layout({ children }) {
   return (

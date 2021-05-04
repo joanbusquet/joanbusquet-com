@@ -3,10 +3,10 @@ import PostItem from "./PostItem/PostItem"
 
 import SectionTitle from "components/Ui/SectionTitle/SectionTitle"
 
-export default function PostsList({ posts }) {
+export default function PostsList({ posts, title }) {
   return (
     <>
-      <SectionTitle title="Últimos artículos" />
+      {title && <SectionTitle title={title} />}
       {posts.map((post) => (
         <PostItem post={post} key={post.slug} />
       ))}
@@ -16,4 +16,5 @@ export default function PostsList({ posts }) {
 
 PostsList.propTypes = {
   posts: PropTypes.array.isRequired,
+  title: PropTypes.string,
 }

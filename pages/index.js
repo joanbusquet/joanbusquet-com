@@ -9,7 +9,7 @@ import Column from "components/Ui/Column/Column"
 import NewsletterBar from "components/Newsletter/NewsletterBar/NewsletterBar"
 
 // Home page components
-import Hero from "components/HomePage/Hero/Hero"
+import Hero from "components/HomePage/HomeHero/HomeHero"
 import PostsList from "components/Posts/PostsList/PostsList"
 // import VideosList from "components/Videos/VideosList/VideosList"
 // import Courses from "components/HomePage/Courses/Courses"
@@ -32,7 +32,7 @@ export default function HomePage({ posts }) {
         {/* <Courses /> */}
         <Row>
           <Column>
-            <PostsList posts={posts} />
+            <PostsList posts={posts} title="Últimos artículos" />
           </Column>
           {/* <Column>
             <VideosList videos={posts} />

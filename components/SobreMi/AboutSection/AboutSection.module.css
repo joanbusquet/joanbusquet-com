@@ -1,0 +1,12 @@
+.about ul {
+  margin-bottom: 2rem;
+  padding: 0;
+}
+.about li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.about a {
+  color: var(--color-primary);
+}
