@@ -22,5 +22,5 @@ export default function Hero({ title, children }) {
 
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.array.isRequired,
+  children: PropTypes.array,
 }
