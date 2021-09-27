@@ -8,50 +8,33 @@ export default function SobreMiPage() {
   return (
     <>
       <Head>
-        <title>▷ Sobre mi | Joan Busquet</title>
+        <title>Sobre mi | Joan Busquet</title>
         <meta
           name="description"
-          content="Desarrollador web profesional desde hace más de 12 años especializado en el ecosistema Javascript, React, NodeJS..."
+          content="Desarrollador profesional desde hace más de 13 años especializado en el ecosistema Javascript, React, NodeJS..."
         />
       </Head>
-      <Hero title="Sobre mí">
-        <p>{`Soy desarrollador web full stack desde hace más de 13 años.`}</p>
-        <p>
-          {`De niño jugaba a crear páginas web con HTML y CSS con el bloc de notas. Me encantaba el <marquee>, el Dreamweaver y el Flash.`}
-        </p>
-      </Hero>
+      <Hero title="Sobre mí"></Hero>
       <Container>
         <AboutSection title="Actualidad">
           <ul>
             <li>
-              👨🏻‍💻 Trabajo en Gestinet como desarrollador senior full stack y
-              también realizo funciones de project manager gestionando el equipo
-              de desarrollo.
+              👨🏻‍💻 Trabajo en MANGO como Conversational AI Full Stack Engineer
+              desarrollando proyectos para dar el mejor servicio a los clientes
+              y desmarcándonos de la competencia.
             </li>
             <li>
               ⚛️ Mi stack favorito para desarrollar aplicaciones web es MERN
               Stack (MongoDB, Express, React y Node.js) y para páginas web, me
               encanta Next.js.
             </li>
+            <li>🚀 Obsesionado con las buenas prácticas y el Clean Code.</li>
             <li>
-              🚀 Obsesionado con las buenas prácticas y el rendimiento web. Ver
-              Lighthouse al 100 es una sensación muy satisfactoria del trabajo
-              bien hecho.
-            </li>
-            <li>
-              👨🏻‍🏫 En mi canal de Youtube subo cursos GRATIS de desarrollo web y
-              contenidos relacionados con el ecosistema de Javascript dónde
-              podrás aprender mucho.
-            </li>
-            <li>
-              📨 Cada semana envío una newsletter con las noticias,
-              curiosidades, proyectos y repositorios más interesantes. ¡No te lo
-              pierdas, suscríbete!
-            </li>
-            <li>
-              🧠 En esta página web comparto tutoriales interesantes sobre los
-              lenguajes de desarrollo web que más me gustan y todo lo que
-              aprendo a diario sobre programación y soft skills.
+              🧠 En esta página web comparto todos los conocimientos que voy
+              absorbiendo a diario, ya que soy estoy obsesionado en ser la mejor
+              versión de mí en todos los sentidos: productividad, desarrollo
+              personal, soft skills... la mejor inversión que puedes hacer eres
+              TÚ.
             </li>
           </ul>
         </AboutSection>
@@ -64,16 +47,14 @@ export default function SobreMiPage() {
               🏔 La montaña es mi refugio necesario para la desconexión de tantas
               líneas de código.
             </li>
+            <li>📚 Leer a diario me hace ser cada día un 1% mejor que ayer.</li>
             <li>
-              📚 Leer a diario me hacer ser cada día un 1% mejor que ayer.
-            </li>
-            <li>
-              🎸 Cuando tengo tiempo libre toco canciones de rock y heavy con mi
-              guitarra eléctrica.
+              ♟️ El ajedrez hace concentrarme en disfrutar de cada una de las
+              horas que le dedico.
             </li>
             <li>
               🎮 No hay nada más divertido que viciar a videojuegos shooters con
-              los amigos los fines de semana.
+              los amigos los domingos por la tarde.
             </li>
           </ul>
         </AboutSection>
