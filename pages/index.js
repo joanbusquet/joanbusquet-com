@@ -17,10 +17,10 @@ export default function HomePage({ posts }) {
   return (
     <>
       <Head>
-        <title>Desarrollo web Javascript Full Stack | Joan Busquet</title>
+        <title>Desarrollo Javascript Full Stack | Joan Busquet</title>
         <meta
           name="description"
-          content="Aprende desarrollo web full stack Javascript, librerías, frameworks ⚛️  y rendimiento web."
+          content="Aprende desarrollo full stack Javascript, librerías, frameworks ⚛️  y buenas prácticas."
         />
       </Head>
       <Hero />

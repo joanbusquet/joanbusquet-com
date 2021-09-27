@@ -14,16 +14,15 @@ export default function HomeHero() {
           <div className={classes.content}>
             <h1 className={classes.title}>¡Hola, soy Joan!</h1>
             <p className={classes.text}>
-              Desarrollador web fullstack desde hace más de 12 años apasionado
-              del ecosistema Javascript y del web performance.
+              Desarrollador fullstack desde hace más de 13 años apasionado del
+              ecosistema Javascript y del web performance.
             </p>
             <p className={classes.text}>
               En esta página aprenderás Javascript, frameworks, librerias, UI/UX
               y mucho más.
             </p>
             <p className={classes.text}>
-              Te invito a echar un vistazo al contenido de la página, redes
-              sociales y mis cursos gratis en Youtube.
+              Te invito a echar un vistazo al contenido de la página.
             </p>
 
             <SocialIcons />
